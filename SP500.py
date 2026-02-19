@@ -1,13 +1,10 @@
 import streamlit as st
 import pandas as pd
-import base64
-import matplotlib.pyplot as plt
-import plotly.graph_objects as go
-import seaborn as sns
-import numpy as np
 import yfinance as yf
 import requests
 import datetime
+import plotly.graph_objects as go
+import base64
 
 st.title('My S&P 500 Company Price Visualizer')
 
